@@ -57,7 +57,7 @@ RUN (($INSTALL_MONGO)) && \
     && rm -rf /tmp/pear \
     && docker-php-ext-enable redis \
   ) || echo "Skipped Redis installation." \
-  # MYSQLi Package
+  # MYSQL Package
   && (($INSTALL_MYSQL)) && \
   ( \
     docker-php-ext-install pdo_mysql \
