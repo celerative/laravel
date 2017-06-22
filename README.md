@@ -21,3 +21,5 @@ FROM celerative/laravel:7.1
 
 ...
 ```
+
+This is the way, because we are using `ONBUILD` instructions.
